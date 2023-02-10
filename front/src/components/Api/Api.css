@@ -1,0 +1,9 @@
+h2{
+   
+    background-color:darkblue ;
+    display: table;
+    margin: 0px auto 0px auto;
+    margin-top: 7px;
+    border: solid;
+    border-radius: 10%;
+}

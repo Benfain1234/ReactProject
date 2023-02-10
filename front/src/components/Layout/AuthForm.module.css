@@ -1,0 +1,129 @@
+.auth {
+  margin: 3rem auto;
+  width: 95%;
+  max-width: 25rem;
+  border-radius: 6px;
+  background-color: #4153ac;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.frag{
+  background-image: url(Flight.jpg);
+  background-position: center;
+}
+
+.auth h1 {
+  text-align: center;
+  color: white;
+}
+
+.control {
+  margin-bottom: 0.5rem;
+}
+
+.control label {
+  display: block;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.control input {
+  font: inherit;
+  background-color: #f1e1fc;
+  color: #4153ac;
+  border-radius: 4px;
+  border: 1px solid white;
+  width: 100%;
+  text-align: left;
+  padding: 0.25rem;
+}
+
+.actions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ button {
+  cursor: pointer;
+  font: inherit;
+  color: white;
+  background-color: #242fab;
+  border: 1px solid #0c1023;
+  border-radius: 4px;
+  padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+  background-color: #ac6a41;
+  border-color: #060815;
+}
+
+.actions .toggle {
+  margin-top: 1rem;
+  background-color: transparent;
+  color: #4153ac;
+  border: none;
+  padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+  background-color: transparent;
+  color: #4153ac;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0px;
+  padding: 0 30px;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar .log {
+  font-weight: 400;
+}
+li:hover {
+  background-color: #4153ac;
+  
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+.api{
+  margin: 3rem auto;
+  width: 95%;
+  background-image: url(sky.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+ 
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  text-align: center;
+  margin-top: 100px;
+}
+
