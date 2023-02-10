@@ -123,9 +123,9 @@ const Berlin =()=>{
                     visibility: isActive ? 'visible' : 'hidden'
                   }}
                 >
-               <h2>Date:{data.forecast.forecastday[0].date} degrees Celsius: {data.forecast.forecastday[0].day.maxtemp_c} condition: {data.forecast.forecastday[0].day.condition.text} <img src={data.forecast.forecastday[0].day.condition.icon}></img></h2>
-                <h2>Date: {data.forecast.forecastday[1].date} degrees Celsius: {data.forecast.forecastday[1].day.maxtemp_c}  condition: {data.forecast.forecastday[1].day.condition.text} <img src={data.forecast.forecastday[1].day.condition.icon}></img> </h2>
-                <h2>Date: {data.forecast.forecastday[2].date} degrees Celsius: {data.forecast.forecastday[2].day.maxtemp_c}  condition: {data.forecast.forecastday[2].day.condition.text} <img src={data.forecast.forecastday[2].day.condition.icon}></img></h2>
+               <h2>Date:{data.forecast.forecastday[0].date} Degrees Celsius: {data.forecast.forecastday[0].day.maxtemp_c} Condition: {data.forecast.forecastday[0].day.condition.text} <img src={data.forecast.forecastday[0].day.condition.icon}></img></h2>
+                <h2>Date: {data.forecast.forecastday[1].date} Degrees Celsius: {data.forecast.forecastday[1].day.maxtemp_c}  Condition: {data.forecast.forecastday[1].day.condition.text} <img src={data.forecast.forecastday[1].day.condition.icon}></img> </h2>
+                <h2>Date: {data.forecast.forecastday[2].date} Degrees Celsius: {data.forecast.forecastday[2].day.maxtemp_c}  Condition: {data.forecast.forecastday[2].day.condition.text} <img src={data.forecast.forecastday[2].day.condition.icon}></img></h2>
                 </div>
 </div>
   )
